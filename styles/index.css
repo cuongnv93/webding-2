@@ -40,3 +40,9 @@
 .wish-box-item span {
     padding-left: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .slide-inner {
+        background-position: 70%;
+    }
+}
