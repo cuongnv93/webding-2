@@ -1,0 +1,42 @@
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    transition: visibility 0s, opacity 0.5s linear;
+    opacity: 0;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wish-box-item {
+    position: relative; /* Để định vị nút */
+}
+.wish-box-item i {
+    position: absolute; /* Định vị nút */
+    right: 10px; /* Cách bên phải */
+    top: 50%; /* Căn giữa theo chiều dọc */
+    transform: translateY(-50%); /* Đẩy lên giữa */
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.wish-box-item p {
+    padding: 3px 33px 2px 0px;
+}
+.wish-box-item span {
+    padding-left: 20px;
+}
