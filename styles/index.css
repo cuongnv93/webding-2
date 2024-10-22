@@ -45,10 +45,23 @@
     .slide-inner {
         background-position: 70%;
     }
+    .the-countdown {
+        background-position: 10% 13% !important;
+    }
 }
 
 .couple-img img{
 
     object-fit: cover; /* Cắt ảnh để vừa với khung tròn */
     /* transform: translate(0%, -20%); */
+}
+
+.co-dau img {
+    transform: scale(3.5) translate(6%, 10%);
+}
+.chu-re img {
+    transform : scale(3.5) translate(-15%, 12%);
+}
+.quote-img img {
+    object-fit: cover;
 }
