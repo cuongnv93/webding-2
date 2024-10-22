@@ -50,5 +50,5 @@
 .couple-img img{
 
     object-fit: cover; /* Cắt ảnh để vừa với khung tròn */
-    transform: translate(0%, -20%);
+    /* transform: translate(0%, -20%); */
 }
